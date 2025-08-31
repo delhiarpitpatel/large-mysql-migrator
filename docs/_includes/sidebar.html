@@ -14,10 +14,6 @@
     {% assign is_current = (current == href) or (current == href | append: '/') or (current == href | append: '.html') %}
     <li><a href="{{ href | relative_url }}" {% if is_current %}aria-current="page" class="active"{% endif %}>Usage</a></li>
 
-    {% assign href = '/api' %}
-    {% assign is_current = (current == href) or (current == href | append: '/') or (current == href | append: '.html') %}
-    <li><a href="{{ href | relative_url }}" {% if is_current %}aria-current="page" class="active"{% endif %}>API Reference</a></li>
-
     {% assign href = '/examples' %}
     {% assign is_current = (current == href) or (current == href | append: '/') or (current == href | append: '.html') %}
     <li><a href="{{ href | relative_url }}" {% if is_current %}aria-current="page" class="active"{% endif %}>Examples</a></li>
