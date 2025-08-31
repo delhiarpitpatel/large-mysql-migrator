@@ -14,3 +14,30 @@
 }
 .btn-primary:hover { background: #035fc8; }
 .btn-outline { background: transparent; }
+
+.page-wrap {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 24px;
+}
+.page-sidebar {
+  padding: 16px 8px 16px 0;
+}
+.sidebar {
+  position: sticky;
+  top: 16px;
+  border-right: 1px solid #e1e4e8;
+  padding-right: 12px;
+}
+.sidebar-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.sidebar-nav {
+  list-style: none;
+  padding-left: 0;
+}
+.sidebar-nav li { margin: 6px 0; }
+.sidebar-nav a { text-decoration: none; }
+.sidebar-sep { border-top: 1px solid #e1e4e8; margin: 10px 0; }
+.page-content { min-width: 0; }
