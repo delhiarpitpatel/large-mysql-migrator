@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% comment %} Wrap the default layout content with a sidebar container {% endcomment %}
+{% include head-custom.html %}
+
+<div class="lmm-wrap">
+  <aside class="lmm-sidebar">
+    {% include sidebar.html %}
+  </aside>
+  <section class="lmm-main">
+    {{ content }}
+  </section>
+  <div style="clear:both"></div>
+</div>
