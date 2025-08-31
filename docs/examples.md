@@ -85,4 +85,4 @@ MySQLMigrator::quickBackup(
 );
 ```
 
-[← Back to Usage](/usage) | [API Reference →](/api)
+[← Back to Usage]({{ '/usage' | relative_url }}) | [API Reference →]({{ '/api' | relative_url }})

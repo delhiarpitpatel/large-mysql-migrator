@@ -67,4 +67,4 @@ This approach prevents:
 - Script timeout issues
 - Server overload during migration
 
-[Next: API Reference →](/api)
+[Next: API Reference →]({{ '/api' | relative_url }})

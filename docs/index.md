@@ -38,5 +38,5 @@ MySQLMigrator::quickBackup(
 );
 ```
 
-[Get Started →](/installation){: .btn .btn-primary}
-[View Examples →](/examples){: .btn .btn-outline}
+[Get Started →]({{ '/installation' | relative_url }}){: .btn .btn-primary}
+[View Examples →]({{ '/examples' | relative_url }}){: .btn .btn-outline}

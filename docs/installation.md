@@ -42,4 +42,4 @@ use DelhiArpitPatel\LargeMysqlMigrator\MySQLMigrator;
 echo "Large MySQL Migrator loaded successfully!";
 ```
 
-[Next: Usage →](/usage)
+[Next: Usage →]({{ '/usage' | relative_url }})
