@@ -2,15 +2,9 @@
 layout: page
 ---
 {% comment %}
-Extend the Cayman theme default by adding a left sidebar and our custom CSS.
+This custom default layout is intentionally minimal to avoid duplicate sidebars.
+It preserves the theme's page layout and only injects our custom head+styles.
 {% endcomment %}
 {% include head-custom.html %}
 
-<div class="page-wrap">
-  <aside class="page-sidebar">
-    {% include sidebar.html %}
-  </aside>
-  <main class="page-content">
-    {{ content }}
-  </main>
-</div>
+{{ content }}

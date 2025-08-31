@@ -29,3 +29,15 @@
 /* Light typographic polish */
 h1,h2,h3 { letter-spacing: -0.2px; }
 p, li { line-height: 1.6; }
+
+/* active nav state (match current page) */
+.sidebar-nav a[aria-current="page"],
+.sidebar-nav a.active {
+  color: #24292e;
+  font-weight: 600;
+  border-left: 3px solid #0366d6;
+  padding-left: 8px;
+}
+
+/* nicer content width */
+.lmm-main { max-width: 980px; }
