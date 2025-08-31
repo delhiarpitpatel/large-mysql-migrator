@@ -1,0 +1,37 @@
+{
+    "name": "delhiarpitpatel/large-mysql-migrator",
+    "description": "A PHP library for migrating large MySQL databases by splitting tables into individual compressed files",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "database",
+        "migration",
+        "mysql",
+        "backup",
+        "restore",
+        "zip",
+        "large-database",
+        "split-tables"
+    ],
+    "homepage": "https://github.com/delhiarpitpatel/large-mysql-migrator",
+    "authors": [
+        {
+            "name": "Arpit Patel",
+            "email": "delhiarpitpatel@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-mysqli": "*",
+        "ext-zip": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DelhiArpitPatel\\LargeMysqlMigrator\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/delhiarpitpatel/large-mysql-migrator/issues",
+        "source": "https://github.com/delhiarpitpatel/large-mysql-migrator"
+    }
+}

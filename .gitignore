@@ -1,0 +1,16 @@
+/vendor/
+/.env
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
+composer.lock
+# Backup artifacts
+*.zip
+/backup/
+/backups/
+/storage/
