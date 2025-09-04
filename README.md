@@ -13,6 +13,12 @@ I built a custom PHP tool to solve this. The script intelligently automates the 
 - Support for splitting large tables
 - Example scripts for backup and restore
 
+## Requirements
+- PHP 7.4 or higher
+- MySQL server (tested with 5.7+)
+- PHP extensions: mysqli, zip
+- Sufficient disk space for backups
+- Write permissions to backup/restore folders
 ## Installation
 Install via Composer:
 
@@ -21,9 +27,6 @@ composer require delhiarpitpatel/large-mysql-migrator
 ```
 
 Or clone the repository and run `composer install`:
-
-```bash
-git clone https://github.com/delhiarpitpatel/large-mysql-migrator.git
 cd large-mysql-migrator
 composer install
 ```
@@ -67,3 +70,10 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Author
 Arpit Patel
+
+## Troubleshooting & FAQ
+- **Permission errors:** Ensure PHP has write access to the backup/restore folders.
+- **Missing extensions:** Install `mysqli` and `zip` extensions for PHP.
+- **Large tables fail:** Check disk space and increase PHP memory/time limits if needed.
+- **Restore fails:** Check MySQL user permissions and error logs for details.
+- **Backup/restore is slow:** Use SSD storage and run on the database server for best performance.
